@@ -2,3 +2,4 @@
 imgs/
 notebooks/
 data/
+__pycache__/
