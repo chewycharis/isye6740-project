@@ -1,5 +1,7 @@
 .env
 imgs/
-notebooks/
 data/
 __pycache__/
+data_clean/
+notebooks/
+scripts/
