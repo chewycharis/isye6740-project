@@ -20,7 +20,7 @@ For our analysis, we used the data from the Meta Ads Library, which is a publicl
 To ensure the scope of work is feasible, we only looked into image ads from 20+ popular fashion companies in the EU, using each company's most followed Meta account, and only included their ads delivered to the top EU countries with over 10M+ populations. We selected fashion companies that differ in terms of affordability and demographic targets.  All code for methods mentioned in this section can be found in this GitHub repository; due to copyrights and Meta data retention policy, ads data will not be released.  
 
 ### Data Collection 
-Practically speaking, we collected data through the Meta Ads Library API \cite{metaadslibraryapi} in April 2025, and used the provided media links to scrape all creative assets with the Selenium python package. We collected 3,761 ads including both active and inactive ones, which contain 1,171 unique images. Next we performed unstructured data processing. 
+Practically speaking, we collected data through the Meta Ads Library API in April 2025, and used the provided media links to scrape all creative assets with the Selenium python package. We collected 3,761 ads including both active and inactive ones, which contain 1,171 unique images. Next we performed unstructured data processing. 
 
 ### Image Processing 
 For images, we performed color analysis with clustering algorithms (e.g. KMeans) to identify dominant colors of the ads and represent them in RBG values; additionally, we calculated background entropy on edges of the image to measure the complexity of the image background; lastly, we performed object detection with pre-trained models (e.g. YOLO, DETR) to identify if a person is present in the ads. 
