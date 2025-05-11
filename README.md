@@ -11,7 +11,7 @@ Broadly speaking, we are trying to understand how fashion companies portray them
 - Do each company's ads have a distinctive enough style that differentiates them from those of its competitors? 
 - How does a company adjust its messages and visuals for different demographics?
 
-Detailed discussions can be found in the [final term paper here.](https://drive.google.com/file/d/1wCtIEshNq-VQwicHkNS2hVU1XvXWrR3E/view?usp=sharing) 
+Detailed discussions can be found in the [final term paper here.](https://drive.google.com/file/d/1wKSBSPQPKhuEcGe4tEHAyu8nsrRft9hU/view?usp=sharing) 
 
 ## Data Source 
 For our analysis, we used the data from the Meta Ads Library, which is a publicly accessible repository with information about ads running across all of Meta's platforms, including Facebook, Instagram, Messenger, Threads, and Audience Network. To comply with the Digital Services Act (DSA) of 2022, the repository contains information on ad delivery timing, ad creatives (e.g. pictures), publisher platforms, beneficiary payers, reach, as well as targeting information by age, gender and location, for all EU ads on its platforms, dating back to 1 year after the day that the ads stop running.  
